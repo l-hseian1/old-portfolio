@@ -1,0 +1,70 @@
+.portfolio {
+    padding: 0 70px;
+}
+.portfolio h1{
+    font-size: 55px;
+    font-weight: 700;
+}
+.portfolio .portfolioNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.portfolio .portfolioNav h3{
+    font-size: 20px;
+    margin: 10px 0;
+}
+.portfolio .portfolioNav button{
+    border: solid 1px white;
+    border-radius: 5px ;
+    width: 150px;
+    height: 50px;
+    padding: 5px;
+}
+button:hover{
+    background-color: #606666;
+    color: #fff;
+}
+.portfolio-card .pos {
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.3s ease-out ;
+}
+
+.portfolio-card:hover .pos {
+    opacity: 1;
+    visibility: visible;
+}
+.pos-content h3{
+    color: #fff;
+}
+.buttons button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.project-overviow {
+    width: 50%;
+}
+#app { height: 100% }
+html,
+body {
+    position: relative;
+    height: 100%;
+    }
+    .rounded-md{
+        width: 100%;
+    }
+
+
+@media screen and (max-width:992px){
+    .portfolio{
+        padding: 10px;
+        margin: 20px;
+    }
+    .portfolio h1{
+        font-size: 30px;
+    }
+}

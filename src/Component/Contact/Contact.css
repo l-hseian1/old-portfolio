@@ -1,0 +1,81 @@
+.contact{
+    padding: 0 70px;
+    margin: 50px 0;
+}
+.contact h1{
+    font-size: 55px;
+    font-weight: 700;
+}
+.contact h3{
+    font-size: 20px;
+    margin: 10px 0;
+}
+.contactInfo{
+    padding: 0 70px;
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.contactInfo .contactNum{
+    max-width: 360px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.contactInfo .contactNum .number{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.contactInfo .contactNum .number button{
+    width: 62px;
+    height: 50px;
+}
+.contactInfo .contactDesc{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.contactInfo .contactDesc input{
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 6px;
+    border: 1px solid #BEC0BF;
+}
+.contactInfo .contactDesc .inputs{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.contactInfo .contactDesc .inputs input{
+    width: 50%;
+}
+.contactInfo .contactDesc  button{
+    width: 150px;
+    height: 50px;
+    border: solid 1px white;
+    border-radius: 5px ;
+}
+.contactInfo .contactDesc .message{
+    height: 150px;
+}
+
+@media screen and (max-width:992px){
+    .contact , .contactInfo{
+        padding: 10px;
+        margin: 20px;
+    }
+    .contact h1{
+        font-size: 30px;
+    }
+    .contactInfo .contactNum .number{
+        font-size: 16px;
+        font-weight: 400;
+        gap: 10px;
+    }
+}
